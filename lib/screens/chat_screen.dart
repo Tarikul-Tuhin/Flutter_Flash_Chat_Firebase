@@ -157,10 +157,10 @@ class MessageBubble extends StatelessWidget {
         isMe ? CrossAxisAlignment.end : CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-      ' $sender ${DateTime.fromMillisecondsSinceEpoch(time.seconds * 1000)}',
+      ' $sender ${DateTime.now()}',
             style: TextStyle(
               fontSize: 12.0,
-              color: Colors.black54,
+              color: Colors.white54,
             ),
           ),
           Material(
